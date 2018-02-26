@@ -1,7 +1,7 @@
 "use strict";
 
 $(function(){
-	var listEndpoint = 'https://www.mangaeden.com/api/list/0';
+	var listEndpoint = 'https://www.mangaeden.com/api/list/0/?p=10';
 	var infoEndpoint = 'https://www.mangaeden.com/api/manga/';
 	var imgEndpont = 'https://cdn.mangaeden.com/mangasimg/';
 	var mangalist = {};
